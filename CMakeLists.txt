@@ -62,7 +62,7 @@ ament_export_dependencies(class_loader)
 
 ament_export_include_directories(include)
 
-ament_export_targets(export_gscam)
+# ament_export_targets(export_gscam)
 
 ament_export_libraries(gscam)
 
