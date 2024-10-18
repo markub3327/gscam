@@ -25,8 +25,8 @@ extern "C" {
 
 #include "rclcpp/rclcpp.hpp"
 
-#include "image_transport/image_transport.hpp"
-#include "camera_info_manager/camera_info_manager.hpp"
+#include "image_transport/image_transport.h"
+#include "camera_info_manager/camera_info_manager.h"
 
 #include "sensor_msgs/msg/image.hpp"
 #include "sensor_msgs/msg/compressed_image.hpp"
