@@ -1,9 +1,6 @@
-# GSCam ![ROS2 CI](https://github.com/ros-drivers/gscam/actions/workflows/build_test.yml/badge.svg?branch=ros2)
+# GSCam (support for ROS 2 Eloquent Elusor)
 
-This is a ROS2 package originally developed by the [Brown Robotics
-Lab](http://robotics.cs.brown.edu/) for broadcasting any
-[GStreamer](http://gstreamer.freedesktop.org) video stream via
-[image transport](https://index.ros.org/p/image_transport/).
+This ROS2 package based on [GSCam](https://github.com/ros-drivers/gscam) supports the Jetbot Pro robot with ROS 2 Eloquent Elusor, the last possible version for Ubuntu 18.04, officially supported by NVIDIA Jetson Nano 4GB.
 
 ## GStreamer Library Support
 
@@ -11,10 +8,7 @@ GSCam supports the following versions of ROS2 and GStreamer:
 
 | ROS2 version | Ubuntu version | GStreamer version |
 |---|---|---|
-| Foxy | 20.04 | 1.16 |
-| Galactic | 20.04 | 1.16 |
-| Humble | 22.04 | 1.20 |
-| Rolling | 22.04 | 1.20 |
+| Eloquent | 18.04 | 1.00 |
 
 #### Dependencies
 
